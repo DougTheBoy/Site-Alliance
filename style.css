@@ -117,6 +117,7 @@ section, footer {
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100vh;  
+  min-height: 50vh;
 }
 
 
