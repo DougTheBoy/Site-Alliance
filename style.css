@@ -73,34 +73,9 @@ section, footer {
   padding-top: 4rem;
 }
 
-.bot-list  {
-  display: flex;
-  align-items: flex-start;  
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  padding-top: 2rem;
-  position: relative;
-}
-
-.img-list {
-  padding-bottom: 10px;
-  width: 64px;
-}
-
-.list-itens {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 2rem;
-  text-align: justify;
-  width: 25%;
-}
-
 #academia {
-  background-color: #fabb00;
-
+  font-family: 'Poppins', sans-serif;
+  display: flex;
 }
 
 .sup-acad {
@@ -111,10 +86,8 @@ section, footer {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 50vh;  
+  min-height: 50vh;
 }
-
-
 
 .list-titulo {
   margin-bottom: 0;
@@ -129,29 +102,86 @@ section, footer {
 
 }
 
-h2 {
-  font-size: 20px;
+.bot-list {
+  background-color: #ffbf00;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  justify-content: space-around;
+  align-items: flex-start;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  min-height: 50vh;
 }
 
-p {
-  font-size: 15px;
+.bot-list h2 {
+  padding-bottom: 10px;
+}
+
+.img-list {
+  padding-bottom: 20px;
+  padding-top: 30px;
+  width: 64px;
+}
+
+
+.list-itens1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+}
+
+.list-itens2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.list-itens3 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.list-itens4 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 
 #planos {
   background-color: #ffffff;
+  padding-top: 6%;
 }
+
 
 #programas {
   background-color: #000000;
   color: white;
+  padding-top: 6%;
 }
 
 #horarios {
   background-color: #ffbf00;
+  padding-top: 6%;
 }
 
 #aula {
   background-color: #ffffff;
+  padding-top: 6%;
 }
 
 [data-anime] {
@@ -170,3 +200,4 @@ p {
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
+}
